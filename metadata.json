@@ -1,0 +1,5 @@
+{
+  "name": "Notes App with Search",
+  "description": "A full-stack note-taking application with real-time search, built with React, Express, and MongoDB.",
+  "requestFramePermissions": []
+}
