@@ -116,10 +116,11 @@ Base URL: `http://localhost:3000/api`
 ---
 
 ### Project Structure ###
-By Anuroop Patidar
+
 
 - `server.ts`: Express server + Mongoose model + REST API + Vite dev middleware
 - `src/main.tsx`: React entry
 - `src/App.tsx`: Main UI and client-side logic (CRUD + search)
 - `src/index.css`: Tailwind setup + small global styling
 
+By Anuroop Patidar
