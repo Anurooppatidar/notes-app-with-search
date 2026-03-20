@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "tsx server.ts",
     "start": "cross-env NODE_ENV=production npx tsx server.ts",
-    "build": "vite build",
-    "preview": "vite preview",
+    "build": "npx vite build",
+    "preview": "npx vite preview",
     "clean": "rm -rf dist",
     "lint": "tsc --noEmit"
   },
