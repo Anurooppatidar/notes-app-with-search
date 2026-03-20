@@ -8,7 +8,8 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const MONGODB_URI = process.env.MONGODB_URI;
-const PORT = 3000;
+// Render (and other platforms) provide their own PORT. Fall back to 3000 locally.
+const PORT = Number.parseInt(process.env.PORT || '', 10) || 3000;
 
 // Note Schema
 const noteSchema = new mongoose.Schema({
